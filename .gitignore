@@ -1,0 +1,9 @@
+data/
+datasets/
+*.tgz
+*.mat
+*.zip
+*.tar
+*.gz
+*.pth
+*.pt
