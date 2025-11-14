@@ -21,6 +21,7 @@ The Oxford Flowers dataset contains 102 flower categories, with each class consi
 
 ## Models Tested
 | Report Section | Notebook |
+| ------------------ | ------------------- |
 | 3.1.1 Baseline ResNet18 Transfer Learning and Hyperparameter Tuning | ResNet18_TransferLearning_FineTune_Frozen.ipynb |
 | 3.1.2 ResNet18 with Different Number of Frozen Layers | ResNet18_TransferLearning_FineTune_Frozen.ipynb |
 | 3.1.3 ResNet18 MixUp and CutMix | ResNet18_MixUp_CutMix.ipynb |
@@ -29,7 +30,7 @@ The Oxford Flowers dataset contains 102 flower categories, with each class consi
 | 3.2.1 Baseline VGG16-BN Transfer Learning and Fine-Tuning | VGG16BN_Baselines_GAPvsFC_FrozenPartialFull.ipynb | 
 | 3.2.2 VGG16-BN with Attention Blocks | VGG16BN_SE_or_CBAM_Attention.ipynb |
 | 3.3 ResNet18 and VGG16-BN Hybrid | ResNet_VGG16_Hybrid.ipynb |
-| 4.1 Fine-tune Pretrained Vision Transformer: ViT-B/16 | |
-| 4.2 Hyperparameters Tuning of ViT Model | |
-| 4.3 Visual Prompt Tuning (VPT) | |
-| 4.4 Advanced Loss Functions (Label Smoothing Cross Entropy & ArcFace) | |
+| 4.1 Fine-tune Pretrained Vision Transformer: ViT-B/16 | Transformers_ViT.ipynb |
+| 4.2 Hyperparameters Tuning of ViT Model | Transformers_ViT.ipynb |
+| 4.3 Visual Prompt Tuning (VPT) | Transformer_VPT.ipynb |
+| 4.4 Advanced Loss Functions (Label Smoothing Cross Entropy & ArcFace) | Transformers_LabelSmoothingandArcFace.ipynb |
