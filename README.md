@@ -19,7 +19,7 @@ https://pytorch.org/vision/main/generated/torchvision.datasets.Flowers102.html
 ## Data Preparation
 The Oxford Flowers dataset contains 102 flower categories, with each class consisting between 40 to 258 images. The train and validation set each consist of 10 images per class while the test set consists of at least 20 images per class. Both CNN and Transformers follow the following standardised preprocessing and loading pipeline. Images were resized to 224 x 224 pixels to be aligned with the input dimensions used by ImageNet-pretrained networks, such as ResNet and ViT. Next, the pixel data of images are then converted into PyTorch tensors for compatibility. Normalisation was then applied using the mean and standard deviation values from the ImageNet dataset, to ensure consistency between the data input and the pretrained models, improving convergence during fine-tuning. Each split was loaded using PyTorch DataLoader objects for efficient mini-batch training. During training, data shuffling was applied to the training set to introduce randomness, reducing the risk of overfitting to specific images. As for validation and test sets, they remained unshuffled as no training will be carried out.
 
-## Models Tested
+## Models Tested in Report
 | Report Section | Notebook |
 | ------------------ | ------------------- |
 | 3.1.1 Baseline ResNet18 Transfer Learning and Hyperparameter Tuning | ResNet18_TransferLearning_FineTune_Frozen.ipynb |
@@ -34,3 +34,9 @@ The Oxford Flowers dataset contains 102 flower categories, with each class consi
 | 4.2 Hyperparameters Tuning of ViT Model | Transformers_ViT.ipynb |
 | 4.3 Visual Prompt Tuning (VPT) | Transformer_VPT.ipynb |
 | 4.4 Advanced Loss Functions (Label Smoothing Cross Entropy & ArcFace) | Transformers_LabelSmoothingandArcFace.ipynb |
+
+## Additional Models Tested 
+| Model | Notebook |
+| ------------------ | ------------------- |
+| ResNet18 with Deformable Convolutions | ResNet18_DeformableConv.ipynb |
+| EfficientNetB0 Transfer Learning: Baseline, Fine‑Tuning | EfficientNetB0_Baselines_FrozenPartialFull_LLRD.ipynb |
