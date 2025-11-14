@@ -40,3 +40,27 @@ The Oxford Flowers dataset contains 102 flower categories, with each class consi
 | ------------------ | ------------------- |
 | ResNet18 with Deformable Convolutions | ResNet18_DeformableConv.ipynb |
 | EfficientNetB0 Transfer Learning: Baseline, Fine‑Tuning | EfficientNetB0_Baselines_FrozenPartialFull_LLRD.ipynb |
+
+
+## Installation and Setup
+
+### 1. Clone the Repository
+```shell
+https://github.com/boslyn/SC4001-Group-Assignment.git
+cd SC4001-Group-Assignment
+```
+
+### 2. Create virtual environment
+```
+python3.12 -m venv .venv
+```
+
+### 3. Activate virtual environment on Windows
+```
+.venv\Scripts\activate
+```
+
+### 4. Install dependencies
+```
+pip install -r requirements.txt
+```
