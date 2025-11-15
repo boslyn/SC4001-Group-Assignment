@@ -38,7 +38,7 @@ The Oxford Flowers dataset contains 102 flower categories, with each class consi
 ## Additional Models Tested 
 | Model | Notebook |
 | ------------------ | ------------------- |
-| ResNet18 with Deformable Convolutions | ResNet18_DeformableConv.ipynb |
+| ResNet18 with Deformable Convolutions | [ResNet18_DeformableConv.ipynb](https://github.com/boslyn/SC4001-Group-Assignment/blob/main/other%20models/ResNet18_DeformableConv.ipynb) |
 | EfficientNetB0 Transfer Learning: Baseline, Fine‑Tuning | [EfficientNetB0_Baselines_FrozenPartialFull_LLRD.ipynb](https://github.com/boslyn/SC4001-Group-Assignment/blob/main/other%20models/EfficientNetB0_Baselines_FrozenPartialFull_LLRD.ipynb) |
 
 
